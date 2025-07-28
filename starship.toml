@@ -3,7 +3,7 @@
 add_newline = false
 continuation_prompt = "[▸▹ ](dimmed white)"
 
-format = """($nix_shell$container$fill$git_metrics\n)$cmd_duration\
+format = """($nix_shell$container$fill$git_metrics\n)\
 $hostname\
 $localip\
 $shlvl\
@@ -82,9 +82,7 @@ $azure\
 $crystal\
 $custom\
 $status\
-$os\
-$battery\
-$time"""
+$os"""
 
 [fill]
 symbol = ' '
